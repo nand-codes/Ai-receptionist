@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Users(models.Model):
+class User(models.Model):
     user_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=25)
     age = models.CharField(max_length=2)
