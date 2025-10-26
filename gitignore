@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Static / Media (optional)
+staticfiles/
+media/
+
+# Migrations (optional for team projects)
+*/migrations/__pycache__/

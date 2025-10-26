@@ -1,12 +1,12 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from user.models import User
+from user.models import Users
 from login.models import Login
 
 # Create your views here.
 def user(request):
     if request.method=='POST':
-        obj=User()
+        obj=Users()
         obj.name=request.POST.get('name')
         obj.age=request.POST.get('age')
         obj.gender=request.POST.get('gender')
